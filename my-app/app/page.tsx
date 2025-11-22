@@ -38,7 +38,8 @@ export default function Home() {
         </div>
         <div className="p-10 border text-center">
           {/* !!! ------- CREATE YOUR OWN SUBPAGE HERE + ADD LINK -------- !!!  */}
-          <p>Delete this function + add link to new page for your game.</p>
+          <Link href="/game2">Game2 - Sara+Natalie Demo. Click on this and it will take you to Game2 page. </Link>
+          
         </div>
         <div className="p-10 border text-center">
           {/* !!! ------- CREATE YOUR OWN SUBPAGE HERE + ADD LINK -------- !!!  */}
