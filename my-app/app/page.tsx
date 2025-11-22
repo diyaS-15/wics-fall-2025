@@ -8,7 +8,7 @@ export default function Home() {
     // m-10 refers to margin of 10 pixels, so this means that there's 10px of space around this entire div object 
     // the main div object contains all of our code, so anything visible on our app will have that space on the outside 
 
-    <div className="m-10 font-jersey">
+    <div className="p-10 font-jersey bg-[#e2cfea] h-300">
 
       {/* notice how the commenting style changed here -> whenever we work inside of our elements like div/ 
       things that are going to appear on our screen we comment in this way */}
@@ -19,7 +19,7 @@ export default function Home() {
       For styling, write className="..." with ... being the content using the TailwindCSS documentation reference */}
 
       {/* !!! ------- PLAY AROUND WITH THE STYLING HERE & CUSTOMIZE IT ---------- !!! */}
-      <h1 className="text-5xl text-center">Hello This is Our Homepage!</h1>
+      <h1 className="text-5xl text-center mt-8 mb-20">GirlsCodeGames.org</h1>
 
       {/* grid is a layout system in CSS, the purpose here is to have 2 games per row */}
       <div className="grid grid-cols-2 gap-4 my-10">
@@ -44,11 +44,11 @@ export default function Home() {
         </div>
         <div className="p-10 border text-center">
           {/* !!! ------- CREATE YOUR OWN SUBPAGE HERE + ADD LINK -------- !!!  */}
-          <Link href="/game3">Game3 - Ishani+Izzy Demo. Click on this and it will take you to Game2 page. </Link>
+          <Link href="/game3">Game3 - Ishani+Izzy Demo. Click on this and it will take you to Game3 page. </Link>
         </div>
         <div className="p-10 border text-center">
           {/* !!! ------- CREATE YOUR OWN SUBPAGE HERE + ADD LINK -------- !!!  */}
-          <p>Delete this function + add link to new page for your game .</p>
+          <Link href="/game5">Game5 - Samhita Demo. Click on this and it will take you to Game5 page. </Link>
         </div>
           {/* COPY PASTE THE ABOVE ELEMENTS FOR MORE PAGES */}
 
