@@ -50,6 +50,10 @@ export default function Home() {
           {/* !!! ------- CREATE YOUR OWN SUBPAGE HERE + ADD LINK -------- !!!  */}
           <Link href="/game5">Game5 - Samhita Demo. Click on this and it will take you to Game5 page. </Link>
         </div>
+        <div className="p-10 border text-center">
+          {/* !!! ------- CREATE YOUR OWN SUBPAGE HERE + ADD LINK -------- !!!  */}
+          <Link href="/game4">Game4 - Tanvi Demo. Click on this and it will take you to Game4 page. </Link>
+        </div>
           {/* COPY PASTE THE ABOVE ELEMENTS FOR MORE PAGES */}
 
       </div>
