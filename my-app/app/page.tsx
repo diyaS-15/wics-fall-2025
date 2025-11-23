@@ -19,7 +19,7 @@ export default function Home() {
       For styling, write className="..." with ... being the content using the TailwindCSS documentation reference */}
 
       {/* !!! ------- PLAY AROUND WITH THE STYLING HERE & CUSTOMIZE IT ---------- !!! */}
-      <h1 className="text-5xl text-center mb-15 ">GirlsCodeGames.org</h1>
+      <h1 className="text-5xl text-center mb-15 ">GirlsCodeGames</h1>
 
       {/* grid is a layout system in CSS, the purpose here is to have 2 games per row */}
       <div className="grid grid-cols-2 gap-4 my-10 text-2xl">
